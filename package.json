@@ -1,13 +1,13 @@
 {
   "name": "my-modal-lib-pro",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Made with create-react-library",
   "author": "Ginzoh",
   "license": "MIT",
   "repository": "Ginzoh/my-modal-lib-pro",
-  "main": "dist/Modal.jsx",
-  "module": "dist/Modal.jsx.modern.js",
-  "source": "src/Modal.jsx",
+  "main": "dist/index.js",
+  "module": "dist/index.js.modern.js",
+  "source": "src/index.js",
   "engines": {
     "node": ">=10"
   },
