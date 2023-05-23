@@ -15,7 +15,7 @@ npm install --save my-modal-lib-pro
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'my-modal-lib-pro'
+import MyComponent from 'my-modal-lib-pro/dist/index'
 import 'my-modal-lib-pro/dist/index.css'
 
 class Example extends Component {
