@@ -1,5 +1,23 @@
 import React, { useEffect, useRef, useCallback } from 'react'
 import styles from './styles.module.css'
+
+/**
+ * TestModal component.
+ *
+ * @component
+ * @param {Object} props The component props.
+ * @param {boolean} props.isOpen A boolean indicating whether the modal is open.
+ * @param {ReactNode} props.children The content to be rendered inside the modal.
+ * @param {function} props.onClose A function to call when the modal needs to be closed.
+ *
+ * @example
+ * return (
+ *   <TestModal isOpen={modalOpen} onClose={closeModal}>
+ *     <p>Modal content goes here...</p>
+ *   </TestModal>
+ * );
+ */
+
 const TestModal = ({ isOpen, children, onClose }) => {
   const ref = useRef(null)
 
